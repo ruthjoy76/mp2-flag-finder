@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Flag Finder</title>
+  </head>
+  <body>
+    <header class="header-container" id="header">
+      <a href="#" class="logo">
+        <img src="src/images/Logo.svg" alt="a logo"/></a>
+      
+      <button type="button" class="theme-btn" id="themeButton">
+        <i class="themes-btn"></i>
+        <span class="theme-btn__text">Theme</span>
+      </button>
+
+    </header>
+  
+    <div class="search-container" id="searchContainer">
+      <div class="search-bar">
+        <i class="search-bar__icon"></i>
+        <input class="search-bar__input" type="search" name="country" id="searchInput" placeholder="Search for a country...">
+      </div>
+  
+      <select class="filter" name="region" id="regionSelect">
+        <option value="">Filter by Region</option>
+        <option value="africa">Africa</option>
+        <option value="americas">Americas</option>
+        <option value="asia">Asia</option>
+        <option value="europe">Europe</option>
+        <option value="oceania">Oceania</option>
+      </select>
+    </div>
+  
+    <section class="cards-container">
+      <p>Where in the world?</p>
+    </section>
+  
+    <div class="card-details-container hide" id="cardDetailsContainer">
+  
+      <button class="back-button" id="backButton" type="button"><i class="back-button__icon"></i> Back</button>
+  
+    </div>
+  
+    <a class="back-to-top" href="#top"></a>
+    
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
