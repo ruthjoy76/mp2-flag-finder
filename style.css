@@ -59,12 +59,12 @@ span {
 }
 
 .search-container input {
+  color: var(--on-black);
   font-size: 1em;
   padding: 0 0.62em;
   border: none;
   border-bottom: 2px solid var(--primary-color);
-  outline: none;
-  color: #222a43;
+  outline: none; 
 }
 
 #result {
@@ -80,7 +80,7 @@ span {
 
 .container h2 {
   font-weight: 600;
-  color: #222a43;
+  color: var(--on-black);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -95,11 +95,11 @@ span {
 .container h4 {
   display: inline;
   font-weight: 500;
-  color: #222a43;
+  color: var(--on-black);
 }
 
 .container span {
-  color: #5d6274;
+  color: var(--light-gray);
 }
 
 .container h3 {
